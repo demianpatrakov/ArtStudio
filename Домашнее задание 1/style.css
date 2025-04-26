@@ -67,6 +67,11 @@
 
 }
 .actors-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 150px;
 }
 .actors-bg {
     width: 100%;
@@ -81,4 +86,62 @@
     font-size: 200px;
     text-align: right;
     opacity: 0.2;
+}
+.actors-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.actors-content h2{
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.actor-1 {
+    background: url('images/1.jpg') center/cover no-repeat;
+}
+.actor-2 {
+    background: url('images/2.jpg') center/cover no-repeat;
+
+}
+.actor-3 {
+    background: url('images/3.jpg') center/cover no-repeat;
+
+}
+.actor-4 {
+    background: url('images/4.png') center/cover no-repeat;
+
+}
+.actor-5 {
+    background: url('images/5.jpg') center/cover no-repeat;
+
+}
+.actor-6 {
+    background: url('images/6.jpg') center/cover no-repeat;
+
+}
+.actor{
+    width: 515px;
+    height: 750px;
+    margin: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.actor p{
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    border-radius:  0 0 50px 50px;
+    font-size: 30px;
+}
+.more{
+    color: white;
+    font-size: 40px;
 }

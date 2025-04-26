@@ -110,3 +110,169 @@
     width: 40%;
     flex-grow: 1;
 }
+.about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.about-content {
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    display: flex;
+}
+.about-left {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-title {
+    font-size: 50px;
+    color: white;
+}
+.about-text {
+    font-size: 30px;
+    color: white;
+
+}
+.about-right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+.about-rect {
+    box-shadow: 8px 8px 0 #1d1d1d;
+    border-radius: 0 20px ;
+}
+.rect1 {
+    background-color: #547bc6;
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    align-self: flex-end;
+
+}
+.rect2 {
+    background-color: #3992b9;
+    width: 200px;
+    height: 200px;
+}
+.rect3 {
+    background-color: #e26fc2;
+    height: 200px;
+    width: 350px;
+    align-self: flex-start;
+}
+.about-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #fe6969;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bg-text {
+    font-size: 150px;
+    font-weight: 700;
+    opacity: 0.2;
+    padding-left: 90px;
+}
+.feature{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.feature-content {
+    padding-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.feature-title {
+    font-size: 50px;
+    width: 40%;
+}
+.feature-text {
+    font-size: 50px;
+    width: 40%;
+}
+.feature-img {
+    flex-grow: 1;
+}
+.feature-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #fee39c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.photograph {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.photograph-left {
+    background: url("img/pictures/4th-section-img.png") center/cover no-repeat;
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.photograph-right {
+    position: relative;
+    overflow: hidden;
+    flex-grow: 2;
+    flex-basis: 500px;
+}
+.photograph-content {
+    text-align: right;
+    color: white;
+}
+.photograph-title {
+    font-size: 50px;
+}
+.photograph-text {
+    font-size: 30px;
+}
+.photograph-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #23536d;
+}
+.bg-img {
+    width: 100%;
+    height: 30%;
+    background: url("img/pictures/4th-section-bg.svg") center/cover no-repeat;
+    
+
+}
+@media(max-width: 1024px){
+    .header-title{
+        font-size: 120px;
+
+    }
+    .bg-text{
+        font-size: 80px;
+    }
+    .future-img{
+
+    }
+    .photograph{
+        flex-direction: column;
+    }
+}
